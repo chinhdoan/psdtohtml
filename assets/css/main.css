@@ -168,8 +168,8 @@ p h1 h2 li ul {
   margin-top:20px;
 }
 .Rectangle-42{
-  position: absolute;
-  margin-top:20px;
+  position: relative;
+  margin-top:50px;
   width: 76px;
   height: 2px;
   background-color: #fb6470

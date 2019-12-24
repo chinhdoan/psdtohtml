@@ -211,6 +211,114 @@ p h1 h2 li ul {
   margin-left:600px;
   background-color: #353541;
 }
+
+.image-achivement-design{
+  position: absolute;
+  margin-top: 120px;
+  margin-left:630px;
+}
+.image-achivement-creative{
+  position: absolute;
+  margin-top: 500px;
+  margin-left:630px;
+}
+.image-achivement-founder{
+  position: absolute;
+  margin-top: 235px;
+  margin-left:150px;
+}
+.image-achivement-marketing{
+  position: absolute;
+  margin-top: 615px;
+  margin-left:150px;
+}
+.achivement-owner{
+  position: absolute;
+  width: 425px;
+  height: 160px;
+  padding-top:10px;
+  padding-left: 50px;
+  font-family: Raleway;
+}
+.achivement-owner-left{
+  position: absolute;
+  width: 425px;
+  height: 185px;
+  padding-top:0px;
+  padding-left: 40px;
+  font-family: Raleway;
+}
+.image-achivement-creative .achivement-owner{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:500px 250px;
+  background-image: url("../../images/chatbox.jpg");
+  box-sizing: border-box;
+  font-family: Raleway;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.image-achivement-design .achivement-owner{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:500px 250px;
+  background-image: url("../../images/chatbox.jpg");
+  box-sizing: border-box;
+  font-family: Raleway;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.image-achivement-founder .achivement-owner-left{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:530px 200px;
+  background-image: url("../../images/chatbox-reverse.jpg");
+  box-sizing: border-box;
+  font-family: Raleway;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.image-achivement-marketing .achivement-owner-left{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:530px 200px;
+  background-image: url("../../images/chatbox-reverse.jpg");
+  box-sizing: border-box;
+  font-family: Raleway;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.achivement-owner .title{
+  font-size: 18px;
+  color: white;
+
+}
+.achivement-owner .time{
+  font-size: 18px;
+  color: #fb6470;
+}
+.achivement-owner .explaination{
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #bcbcc0;
+}
+
+.achivement-owner-left .title{
+  font-size: 18px;
+  color: white;
+}
+
+.achivement-owner-left .time{
+  font-size: 18px;
+  color: #fb6470;
+}
+.achivement-owner-left .explaination{
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #bcbcc0;
+}
+
+
 .E-Eclipse{
   margin-left:578px;
   position: absolute;

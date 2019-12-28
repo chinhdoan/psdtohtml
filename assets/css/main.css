@@ -13,7 +13,7 @@ a{
   color: white;
 }
 .side-menu a:hover{
-  color: yellow;
+  color: lightgreen;
 }
 #toggle-button {
   position: absolute;
@@ -91,6 +91,9 @@ a{
 }
 #myBtn.active{
   display: block;
+}
+#myBtn:hover{
+  background: white;
 }
 .image-color {
   
@@ -603,6 +606,9 @@ div.block4{
   text-align: left;
   color: #3e3e3e;
 }
+.Hire_Btn h1:hoveR{
+    color: lightgreen;
+}
 .form-group{
 
   display: flex;
@@ -679,6 +685,9 @@ span.label{
   font-size: 16px;
   cursor: pointer;
   margin-left:485px;
+}
+.hireme:hover{
+  color:lightgreen;
 }
 .contact-infor{
    grid-column: 2/3;

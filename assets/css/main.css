@@ -204,13 +204,13 @@ p h1 h2 li ul {
   background-color: #353541;
   
 }
-.About-Me{
+#About-Me{
   position: absolute;
   padding-top:60px;
 
 
 }
-.About-Me h1 {
+#About-Me h1 {
   width: 146px;
   height: 25px;
   font-family: Raleway;

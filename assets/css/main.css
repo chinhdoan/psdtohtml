@@ -63,7 +63,7 @@ a{
 
 .btn-close:hover {color: red;}
 .side-menu a{
-  padding:30px 10px 30px 30px;
+  padding:30px 10px 14px 30px;
   text-decoration:none;
   font-size:16px;
   font-family: Raleway;
@@ -96,7 +96,7 @@ a{
   background: white;
 }
 .image-color {
-  
+
   margin:0px;
   position: relative;
   height: 200px;
@@ -180,7 +180,7 @@ a{
   height: 16px;
   font-family: Raleway;
   font-size: 25px;
-  font-weight: 500; 
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.64;
@@ -205,7 +205,7 @@ p h1 h2 li ul {
   width: 380px;
   height: 526px;
   background-color: #353541;
-  
+
 }
 #About-Me{
   position: absolute;
@@ -219,7 +219,7 @@ p h1 h2 li ul {
   font-family: Raleway;
   font-size: 32px;
   font-weight: 600;
-  font-stretch: normal; 
+  font-stretch: normal;
   font-style: normal;
   line-height: 1.13;
   letter-spacing: normal;
@@ -493,7 +493,7 @@ p h1 h2 li ul {
 
 section{
   padding:0px;
-  margin:auto; 
+  margin:auto;
   position: relative;
   display:flex;
   flex-direction: row;
@@ -590,7 +590,7 @@ div.block4{
   padding-left: 85px;
   padding-top: 85px;
   position: relative;
-   
+
 }
 
 .Message h1{
@@ -649,7 +649,7 @@ div.block4{
    padding-left: 50px;
     position: relative;
 }
-.input-message{ 
+.input-message{
   width: 265px;
   height: 145px;
   border: solid 1px #353541;
@@ -695,7 +695,7 @@ span.label{
 #contact{
   grid-column: 1/2;
 }
-.Sub h1{ 
+.Sub h1{
   padding-bottom: 10px;
   width: 150px;
   height: 17px;

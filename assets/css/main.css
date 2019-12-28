@@ -299,7 +299,7 @@ p h1 h2 li ul {
 }
 #Work-Experience-Education{
   padding-left: 85px;
-  padding-top: 46px;
+  padding-top: 40px;
 }
 #Work-Experience span{
   display: block;
@@ -327,29 +327,29 @@ p h1 h2 li ul {
   width: 2px;
   height: 527px;
   margin-top:210px;
-  margin-left:497px;
+  margin-left:510px;
   background-color: #353541;
 }
 
 .image-achivement-design{
   position: absolute;
   margin-top: 120px;
-  margin-left:530px;
+  margin-left:620px;
 }
 .image-achivement-creative{
   position: absolute;
   margin-top: 500px;
-  margin-left:530px;
+  margin-left:620px;
 }
 .image-achivement-founder{
   position: absolute;
   margin-top: 235px;
-  margin-left:45px;
+  margin-left:0px;
 }
 .image-achivement-marketing{
   position: absolute;
   margin-top: 615px;
-  margin-left:45px;
+  margin-left:0px;
 }
 .achivement-owner{
   position: absolute;
@@ -439,7 +439,7 @@ p h1 h2 li ul {
 
 
 .E-Eclipse{
-  margin-left:475px;
+  margin-left:488px;
   position: absolute;
 }
 .Eclipse{
@@ -567,7 +567,7 @@ section{
 #Mi-Skull .percent{
   position: absolute;
   padding-top:20px;
-  padding-left:280px;
+  padding-left:295px;
 }
 #Mi-Skull .percent h1{
   width: 27px;

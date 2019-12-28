@@ -344,12 +344,12 @@ p h1 h2 li ul {
 .image-achivement-founder{
   position: absolute;
   margin-top: 235px;
-  margin-left:0px;
+  margin-left:-25px;
 }
 .image-achivement-marketing{
   position: absolute;
   margin-top: 615px;
-  margin-left:0px;
+  margin-left:-25px;
 }
 .achivement-owner{
   position: absolute;

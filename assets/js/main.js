@@ -5,6 +5,10 @@ function openSlideMenu(){
       document.getElementById('menu-bar').classList.toggle('active');
       document.getElementById('container').style.marginLeft = '180px';
  }
+function closeSlideMenu(){
+  document.getElementById('side-menu').style.width = '0';
+  document.getElementById('container').style.marginLeft = '0';
+}
 
 $(function() {
 	$(window).scroll(function() {
@@ -25,12 +29,5 @@ $(function() {
 
 
 
-function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('container').style.marginLeft = '250px';
-    }
 
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('container').style.marginLeft = '0';
-    }
+ 

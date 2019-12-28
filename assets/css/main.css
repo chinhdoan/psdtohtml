@@ -1,45 +1,140 @@
-body .container{
-	width: 100%;
+#container{
+  width: 100%;
+  transition:margin-left 0.5s;
+  overflow:hidden;
+
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: yellow;
+}
+.side-menu .btn-close{
+  display: block;
+  top:0;
+  margin-bottom: 50px;
+  font-size:30px;
+  margin-left: 15px;
+  color: red;
+}
+.image-color {
+  overflow:hidden;
+  display: block;
+  list-style: none;
+  padding-left:30px;
+  color: white;
+  font-family: Raleway;
+}
+.image-color .size {
+  font-size: 30px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #dfe6e0;
+  color: green;
+  cursor: pointer;
+  opacity: 100%;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn.active{
+  display: block;
+}
+.image-color {
+  
+  margin:0px;
+  position: relative;
+  height: 150px;
+  background-color: #3c4e65;
+}
+
 
 .block1 {
   width: 100%;
-	padding-left: 85px;
-	padding-top: 46px;
-	padding-bottom: 194px;
-	background-color: #353541;
+  padding-right: 86px;
+  padding-bottom: 194px;
+  background-color: #353541;
 }
 
 .block2 {
-  width: 100%;
+ width: 100%;
   position: relative;
-	padding-left: 85px;
-	padding-top: 85px;
+  padding-left: 85px;
+  padding-top: 85px;
   padding-bottom: 526px;
-	background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
-.menu-bar span{
-	display: block;
-	width: 55px;
-	height: 5px;
-	background: #fb6470;
-	margin : 9px;
+.side-menu{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;nd-color: #353541;
+  left: -200px;
+  transition: all 350ms linear;
+}
+.side-menu.active{
+  left:9px;
+}
+
+#menu-bar ul{
+  padding: 0px;
+  margin: 0px;
+}
+#menu-bar a{
+   padding:30px 10px 10px 30px;
+  text-decoration:none;
+  font-size:16px;
+  font-family: Raleway;
+  color:white;
+  display:block;
+  transition:0.3s;
+  border-bottom: 1px solid #000000;
+}
+#toggle-button {
+  position: absolute;
+  left: 40px;
+  top:20px;
+}
+ #toggle-button span{
+  display: block;
+  width: 55px;
+  height: 5px;
+  background: #fb6470;
+  margin : 9px;
+
 }
 .intro{
-	padding-left: 550px;
-	padding-top:80px;
+  padding-left: 550px;
+  padding-top:150px;
 }
 .rec span{
-	display: block;
-	width: 327px;
-	height: 2px;
-	background-color: #fb6470;
-	margin:10px;
+  display: block;
+  width: 327px;
+  height: 2px;
+  background-color: #fb6470;
+  margin:10px;
 }
 
 
 .Al-Rayhan{
-	padding-left: 60px;
+  padding-left: 60px;
 }
 .Al-Rayhan h1{
   width: 221px;
@@ -54,7 +149,7 @@ body .container{
   color: #ffffff;
 }
 .Expert-Design{
-	padding-left:15px;
+  padding-left:15px;
 }
 .Expert-Design h1 {
   width: 317px;
@@ -70,8 +165,8 @@ body .container{
   color: #ffffff;
 }
 .Hiring {
-	padding-top :20px;
-	padding-left: 80px;
+  padding-top :20px;
+  padding-left: 80px;
 }
 .Hire_Btn {
   width: 170px;
@@ -106,11 +201,11 @@ p h1 h2 li ul {
   padding-left:670px;
 }
 .rec2 span{
-	display:inline-block;
-	width: 380px;
-	height: 526px;
-	background-color: #353541;
-	
+  display:inline-block;
+  width: 380px;
+  height: 526px;
+  background-color: #353541;
+  
 }
 .About-Me{
   position: absolute;
@@ -168,8 +263,8 @@ p h1 h2 li ul {
   margin-top:20px;
 }
 .Rectangle-42{
-  position: relative;
-  margin-top:50px;
+  position: absolute;
+  margin-top:20px;
   width: 76px;
   height: 2px;
   background-color: #fb6470
@@ -184,13 +279,37 @@ p h1 h2 li ul {
   list-style:none;
   border-bottom: 1px solid #ededed;
 }
-.Work-Experience{
-
+#Work-Experience{
   padding-left: 85px;
   padding-top: 46px;
 }
 
-.Work-Experience h1{
+#Work-Experience h1{
+  width: 258px;
+  height: 31px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3e3e3e;
+}
+#Work-Experience-Education{
+  padding-left: 85px;
+  padding-top: 46px;
+}
+#Work-Experience span{
+  display: block;
+  margin-top:150px;
+   position: relative;
+  width:100%;
+  height: 1px;
+  background-color: gray;
+}
+#Work-Experience-Education h1{
   width: 258px;
   height: 31px;
   font-family: Raleway;
@@ -351,16 +470,16 @@ p h1 h2 li ul {
   width: 100%;
   padding-top:150px;
 }
-.Mi-Skull{
+#Mi-Skull{
   width: 100%;
-  padding-left: 85px;
+  padding-left: 45px;
   padding-top: 46px;
   padding-bottom: 100px;
   background-color: #000000;
 }
-.Mi-Skull h1{
+#Mi-Skull h1{
   width: 300px;
-  height: 40px;
+  height: 32px;
   font-family: Raleway;
   font-size: 32px;
   font-weight: 600;
@@ -380,19 +499,19 @@ section{
   flex-direction: row;
   width: 100%;
 }
-.box{
+#Mi-Skull .box{
   position: relative;
 }
-.box-2{
+#Mi-Skull .box-2{
   padding-left: 200px;
 }
-.box-3{
+#Mi-Skull .box-3{
   padding-left: 200px;
 }
-.title{
+#Mi-Skull.title{
   position: relative;
 }
-.title h1{
+#Mi-Skull .title h1{
   width: 200px;
   height: 18px;
   padding-top: 70px;
@@ -406,11 +525,11 @@ section{
   text-align: left;
   color: #ffffff;
 }
-.bar{
+#Mi-Skull .bar{
    position: absolute;
   padding-top:25px;
 }
-.bar .Recbar{
+#Mi-Skull .bar .Recbar{
   display: block;
   width: 265px;
   height: 5px;
@@ -419,38 +538,38 @@ section{
   margin-top:95px;
   background-color: #ffffff;
 }
-.bar .Recbar .Recbar-Red90{
+#Mi-Skull .bar .Recbar .Recbar-Red90{
   width: 222px;
   height: 5px;
   background-color: #fb6470;
 }
 
-.bar .Recbar .Recbar-Red98{
+#Mi-Skull .bar .Recbar .Recbar-Red98{
   width: 244px;
   height: 5px;
   background-color: #fb6470;
 }
-.bar .Recbar .Recbar-Red70{
+#Mi-Skull .bar .Recbar .Recbar-Red70{
   width: 170px;
   height: 5px;
   background-color: #fb6470;
 }
-.bar .Recbar .Recbar-Red80{
+#Mi-Skull .bar .Recbar .Recbar-Red80{
   width: 187px;
   height: 5px;
   background-color: #fb6470;
 }
-.bar .Recbar .Recbar-Red96{
+#Mi-Skull .bar .Recbar .Recbar-Red96{
   width: 233px;
   height: 5px;
   background-color: #fb6470;
 }
-.percent{
+#Mi-Skull .percent{
   position: absolute;
   padding-top:20px;
   padding-left:300px;
 }
-.percent h1{
+#Mi-Skull .percent h1{
   width: 27px;
   height: 13px;
   font-family: Raleway;
@@ -567,7 +686,7 @@ span.label{
 .contact-infor{
    grid-column: 2/3;
 }
-.contact{
+#contact{
   grid-column: 1/2;
 }
 .Sub h1{ 
@@ -587,8 +706,7 @@ span.label{
 .Sub{
   padding-bottom: 10px;
 }
-i{
-}
+
 .Sub p{
   padding-left: 25px;
    width: 294px;
@@ -616,10 +734,7 @@ footer{
   padding-top: 15px;
 }
 footer p{
-  margin-left: 570px;
   margin-bottom: 50px;
-  width: 252px;
-  height: 12px;
   font-family: Raleway;
   font-size: 12px;
   font-weight: 500;
@@ -627,6 +742,6 @@ footer p{
   font-style: normal;
   line-height: 4.17;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #3e3e3e;
 }
